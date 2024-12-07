@@ -1,0 +1,448 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Full page carousel */
+.carousel-item {
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Custom text styling for the carousel */
+.carousel-caption {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    min-width: 320px;
+}
+
+/* Optional: Hides carousel controls (previous/next) */
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+img.img-govLogo, img.img-mpLogo {
+    width: 170px;
+}
+header{
+    position: relative;
+}
+
+/* .fixTab {
+    position: absolute;
+    z-index: 1;
+    margin: 0 7.5%;
+} */
+
+.fixTab {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo_section {
+    padding: 10px 10px;
+}
+
+a.navbar-brand + a {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer h5 {
+    font-size: 14px;
+    color: #272c3f;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+footer ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+footer p.txt {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+footer p.txt.textR{
+    text-align: right;
+}
+ul.SocialIcon li {
+    display: inline;
+}
+
+/* Center the Tabs */
+.Bg-color{
+    background-color: #f9fafc;
+}
+.nav-tabs {
+    display: flex;
+    justify-content: left;
+    max-width: 450px;
+    margin: auto;
+}
+
+/* Custom active tab styling with line */
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    position: relative;
+}
+
+.nav-link {
+    margin: 6px 10px;
+    padding: 6px 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 50px;
+    text-align: left;
+}
+
+.nav-tabs .nav-link {
+    margin: 0;
+    padding:0;
+    padding-bottom:10px;
+    color: #272c3f;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+
+.nav-tabs .nav-link.active {
+    color: #272c3f;
+    font-weight: bold;
+    border-bottom: 3px solid #272c3f;
+    background: transparent;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-nav li.nav-item:first-child a {
+    margin-left: 0;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(138 84 29);
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+}
+.banner {
+    position: relative;
+}
+.banner input.form-control {
+    font-size: 12px;
+    min-height: 40px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.banner > img {
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    opacity: .8;
+    width: 18px;
+}
+.banner > img.Rightcs {
+    left: auto;right:10px;
+}
+
+.msearch {
+    position: relative;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.msearch img {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 18px;
+}
+.msearch input.form-control {
+    background-color: #ffffff42;
+    border-radius: 16px;
+    max-width: 120px;
+    font-size: 12px;
+    padding-left: 35px;
+    color: #fff;
+    border-color:transparent
+}
+.msearch ::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.msearch ::-ms-input-placeholder { /* Edge 12-18 */
+  color: #fff;
+}
+
+.mLang {
+    background-color: #ffffff42;
+    border-radius: 20px;
+    width: 52px;
+    height: 32px;
+    margin-top: 6px;
+    padding-top: 7px;
+    margin-right: 10px;
+    text-align: center;
+    padding-left: 6px;
+}
+.mLang a {
+    padding: 0;
+    margin: 0;
+}
+
+
+.mwheelChair {
+    background-color: #ffffff42;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+.mwheelChair a {
+    padding: 0;
+    margin: 0;
+}
+.mwheelChair img {
+    width: 18px;
+}
+
+
+.mLogin {
+    background-color: #ffffff42;
+    border-radius: 20px;
+    width: 75px;
+    height: 32px;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+.mLogin a {
+    padding: 0;
+    margin: 0;
+}
+.mLogin img {
+    width: 18px;
+}
+
+li.nav-item.rightN {
+    position: absolute;
+    right: 0;
+    min-width: 350px;
+    text-align: right;
+}
+li.nav-item.rightN >div {
+    display: inline-block;
+}
+
+.tab-content {
+    margin-top: 30px;
+}
+
+.tab-pane p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.Under-Construction{
+    min-height: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+color:#ddd;
+opacity: .9;
+}
+.c-search > div{
+    margin: auto;
+}
+.c-search .flex-container {
+    display: flex;
+    
+  }
+  
+  .c-search .flex-container > div {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .c-search button.btn-secondary {
+    background: #f4f5f9;
+    border-color: #eee;
+    font-size: 12px;
+    padding: 9px 50px 9px 10px;
+    text-align: left;
+    color: #272c3f;
+}
+
+  .c-search input.form-control {
+    position: relative;
+    top: 0px;
+    border-radius: 0 4px 4px 0px;
+    margin-left: -1px;
+    min-width: 380px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.c-search button#dropdownMenuButton {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.c-search .dropdown-toggle::after {
+    
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.h-title{
+    font-weight: bolder;
+    color: #272c3f;
+}
+.p-text {
+    font-weight: lighter;
+    font-size: 12px;
+    color: #999;
+    text-transform: capitalize;
+}
+.btn-learn {
+    background-color: #272c3f;
+    border-color: #272c3f;
+    font-size: 13px;
+    padding: 12px 40px;
+}
+.btn-learn:hover {
+    background-color: #374477;
+    border-color: #374477;
+    
+}
+
+.customCard {
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #eef7fe;
+}
+.customCard:hover {
+    background-color: #eef7fe;
+    border-bottom-color: #7798c1;
+}
+.customCard img {
+    width: 32px;
+    height: 32px;
+}
+
+.customCard .card-text {
+    font-size: 12px;
+    min-height: 30px;
+    color: #999;
+    max-width: 86%;
+}
+a.btn-bottom-line {
+    padding: 0;
+    font-size: 12px;
+    border-bottom: 1px solid #bbb;
+    border-radius: 0;
+}
+
+
+/* Optional: Style for the image */
+.sideBanner img {
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    width: 100%;  /* Makes the image fill the column width */
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+/* Transparent backdrop for the bottom of the image */
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);  /* Black background with transparency */
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    border-radius: 6px;
+}
+
+/* Display the overlay on hover */
+.col-lg-6.col-md-6:hover .image-overlay {
+    opacity: 1;
+}
+
+/* Text inside the overlay */
+.image-overlay h3,
+.image-overlay p {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.image-overlay a {
+    color: #fff;
+    background-color: transparent;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 0;
+    font-weight: bold;
+    opacity: .7;
+}
+
+.image-overlay a:hover {
+    background-color: transparent;
+    opacity: 1;
+}
+
