@@ -113,7 +113,7 @@ footer p.txt.textR{
     text-align: right;
 }
 ul.SocialIcon li {
-    display: inline;
+    display: inline-block;
 }
 
 /* Center the Tabs */
