@@ -1,6 +1,4 @@
-I have completed assiged task. 
-convert HTML with the help of CSS and javascipt. 
-I have used Bootstrap for responsive.
+I have completed the assigned task: converting HTML with CSS and JavaScript. I used Bootstrap for responsiveness.
 
 Index.html
 CSS
